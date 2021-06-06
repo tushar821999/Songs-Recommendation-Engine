@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>Songs Recommendation Engine</title>
+
+    <style>
+        body{
+            background-color: #212529;
+            color: blanchedalmond;
+        }
+        .btnMain{
+            color: blanchedalmond;
+            border : 2px solid blanchedalmond;
+        }
+        .btnMain:hover{
+            background-color: blanchedalmond;
+            border : 2px solid #212529;
+        }
+        table{
+            background-color: blanchedalmond;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- START OF THE NAVIGATION BAR -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Songs Recommendation Engine</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://github.com/tushar821999/Songs-Recommendation-Engine/blob/Dot-Net-Console/README.md">Documentation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://github.com/tushar821999/Songs-Recommendation-Engine">Contribute</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- END OF THE NAVIGATION BAR-->
+
+
+    <!-- START OF HEADER BODY -->
+    <div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="p-5 mb-4 rounded">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Shape your Mind, <br>Shape your Life</h1>
+                    <br>
+                    <input type="email" class="form-control mb-4 btnMain" id="exampleFormControlInput1" placeholder="Search a song...">
+                    <button class="btn btnMain mt-auto btn-lg" type="button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="p-5 mb-4 rounded">
+                <div class="container-fluid py-5">
+                    <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_awyi7kl8.json"  background="transparent"  speed="1"  style="width: 350px; height: 350px;"  loop  autoplay></lottie-player>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- END OF THE HEADER BODY-->
+
+
+    <!-- START OF THE TABLE -->
+    <div class="container">
+    <table class="table table-warning">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- END OF THE TABLE -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
