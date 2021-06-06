@@ -11,3 +11,5 @@ A Simple Songs Recommendation Engine Using ELK Stack, GCP and C#
 - ```Harware Profile``` : ```I/O Optimized``` <br>
 - ```Version``` : ```7.13.1```
 - ```Deployment Name``` : ```Songs-Recommendation-Engine```
+<br>
+<img src="https://raw.githubusercontent.com/tushar821999/Songs-Recommendation-Engine/main/Architecture.PNG">
