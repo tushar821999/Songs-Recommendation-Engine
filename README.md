@@ -12,7 +12,7 @@ A Simple Songs Recommendation Engine Using ELK Stack, GCP and C#
 - ```Version``` : ```7.13.1```
 - ```Deployment Name``` : ```Songs-Recommendation-Engine```
 <br>
-<img src="https://raw.githubusercontent.com/tushar821999/Songs-Recommendation-Engine/main/Architecture.PNG">
+<img src="https://raw.githubusercontent.com/tushar821999/Songs-Recommendation-Engine/ELK-Stack-Deployment/Architecture.PNG">
 
 # Default End Points
 
